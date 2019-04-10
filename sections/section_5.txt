@@ -1,0 +1,24 @@
+﻿Sección 5:
+
+Para poder deployar un Script en un Cluster Spark debemos generar desde la IDE de scala el paquete jar que luego sera ejecutado sobre el entorno,
+sea en la compu o bien en un cluster.
+
+* Click derecho sobre el pakage --> export --> Java / Jar file 
+
+
+Una vez exportado, ejecutamos el JAR en la consola de Spark. Para esto navegamos hasta donde esta el JAR :
+
+# spark-submit --class com.sundogsoftware.spark.PopularMovies PopularMovies.jar
+
+
+ 
+
+
+
+
+
+
+
+
+
+

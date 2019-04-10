@@ -1,3 +1,9 @@
 # Don't track content of these folders
 
 /.metadata/
+.metadata/
+/.settings/
+.settings/
+/credentials/
+credentials/
+
